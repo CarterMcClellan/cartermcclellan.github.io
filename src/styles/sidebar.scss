@@ -1,0 +1,41 @@
+@import 'variables.scss';
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 5px;
+    padding-top: 40px;
+    background-color: $primary;
+}
+
+.siderbar div.imgContainer {
+    background-color: $blue;
+}
+
+.sidebar img {
+    background-color: $blue;
+    border-radius: 150px;
+    margin-left: 20px;
+    width: 125px;
+}
+.sidebar ol {
+    list-style-type:none;
+    
+}
+
+.sidebar li {
+    &:not(:last-child) { 
+        margin-bottom: 10px;  
+    }
+    &.grow {
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+    }
+}
+    

@@ -1,0 +1,45 @@
+@import 'variables.scss';
+
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $primary;
+    color: $secondary;
+
+    .row {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; /* for centering 3 blocks in the center */
+        /* justify-content: space-between; for space in between */ 
+    }
+
+    .block {
+        width: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $secondary
+    }
+    /* mouse over link */
+    a:hover {
+        color: $dark-blue;
+    }
+}
+.headroom--unfixed {
+    position: relative;
+    transform: translateY(0);
+}
+.headroom--scrolled {
+    transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+}
+.headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+}
