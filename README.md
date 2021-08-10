@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Useful Resources
 [Awesome React Components](https://github.com/brillout/awesome-react-components)
+[Tilt Effect](https://www.youtube.com/watch?v=A5koWY5S6Q4)
+[Masonry Tiling](https://www.npmjs.com/package/react-masonry-css)
