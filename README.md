@@ -71,6 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Useful Resources
-[Awesome React Components](https://github.com/brillout/awesome-react-components)
-[Tilt Effect](https://www.youtube.com/watch?v=A5koWY5S6Q4)
-[Masonry Tiling](https://www.npmjs.com/package/react-masonry-css)
+- [Awesome React Components](https://github.com/brillout/awesome-react-components)
+- [Tilt Effect](https://www.youtube.com/watch?v=A5koWY5S6Q4)
+- [Masonry Tiling](https://www.npmjs.com/package/react-masonry-css)
+- [Lei Mao Blog](https://leimao.github.io/blog/)
+- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?preview.text=Richard%20Phillips%20Feynman%20was%20an%20American%20theoretical%20physicist,%20known%20for%20his%20work%20in%20the%20path%20integral%20formulation%20of%20quantum%20mechanics,%20the%20theory%20of%20quantum%20electrodynamics&preview.text_type=custom&preview.size=16&sort=popularity#standard-styles)

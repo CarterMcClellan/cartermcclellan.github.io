@@ -1,7 +1,14 @@
 @import 'header.scss';
 @import 'variables.scss';
 @import 'sidebar.scss';
+@import 'math-projects.scss';
+@import 'fonts.scss';
 
 .content {
     margin-left: 160px;
+    margin-top: 50px;
+}
+
+.body {
+    background-color: #FFFBF1;
 }

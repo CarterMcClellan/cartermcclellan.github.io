@@ -1,6 +1,7 @@
 import Header from './components/header/header'
 import Sidebar from './components/sidebar/sidebar'
 import CV from './components/cv/cv'
+import MathProjects from './components/math/math'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
                 <CV/>
               </Route>
               <Route path="/math">
-                <h2> stuff about numbers </h2>
+                <MathProjects/>
               </Route>
             </Switch>
           </div>

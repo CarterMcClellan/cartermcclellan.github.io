@@ -9,6 +9,7 @@ function Sidebar() {
         <div className="imgContainer">
             <img src={profile}/>
         </div>
+        <div className="myName"> Carter McClellan </div>
         <ol>
             <li className="grow"><FontAwesomeIcon icon={faGithub} /> Github </li>
             <li className="grow"><FontAwesomeIcon color="#2867B2" icon={faLinkedin} /> LinkedIn</li>
