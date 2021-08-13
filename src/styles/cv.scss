@@ -1,6 +1,26 @@
 @import 'fonts.scss';
+@import 'variables.scss';
 
-div.content div.resume div.sectionHeader {
-    font-family: 'Playfair Display';
-    background-color: blueviolet;
+div.resume {
+    @media screen and (min-width: 768px) {
+        padding-left: $cv-padding;
+        padding-right: $cv-padding;
+    }
+    .sectionHeader {
+        font-family: 'Playfair Display';
+        font-size: larger;
+        @media screen and (min-width: 768px) {
+            font-size: x-large;
+        }
+        color: $primary-font-color;
+    }
+
+    .experience {
+        font-family: 'Playfair Display';
+        font-size: small;
+        @media screen and (min-width: 768px) {
+            font-size: medium;
+        }
+        color: $primary-font-color;
+    }
 }

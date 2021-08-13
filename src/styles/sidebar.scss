@@ -11,6 +11,11 @@
     background-color: $off-white;
 }
 
+// no styling for profile links in sidebar
+.sidebar a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
 .sidebar img {
     border-radius: 150px;
     margin-left: 12px;
@@ -20,6 +25,7 @@
 }
 .sidebar ol {
     list-style-type:none;
+    color: $primary-font-color;
 }
 
 .sidebar div.myName {
@@ -27,6 +33,7 @@
     margin-left: 40px;
     font-size: larger;
     font-weight: 600;
+    color: $primary-font-color;
 }
 
 .sidebar li {
