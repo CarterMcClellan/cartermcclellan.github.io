@@ -7,7 +7,7 @@ function Header() {
     <Headroom>
         <div class="row">
             <div class="block"><Link to="/">Resume</Link></div>
-            <div class="block"><Link to="/math">Math</Link></div>
+            <div class="block"><Link to="/projects">Projects</Link></div>
         </div>
     </Headroom>
     
