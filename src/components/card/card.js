@@ -5,8 +5,8 @@ import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import IconButton from '@material-ui/core/IconButton';
-import FavoriteBorderRounded from '@material-ui/icons/FavoriteBorderRounded';
 import Share from '@material-ui/icons/Share';
+import Link from '@material-ui/core/Link';
 import { useSoftRiseShadowStyles } from '@mui-treasury/styles/shadow/softRise';
 import { useSlopeCardMediaStyles } from '@mui-treasury/styles/cardMedia/slope';
 import { useN01TextInfoContentStyles } from '@mui-treasury/styles/textInfoContent/n01';
@@ -30,7 +30,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-export const CardDemo = React.memo(({title, description}) => {
+export const CardDemo = React.memo(({title, link}) => {
   const cardStyles = useStyles();
   const mediaStyles = useSlopeCardMediaStyles();
   const shadowStyles = useSoftRiseShadowStyles();
@@ -44,15 +44,14 @@ export const CardDemo = React.memo(({title, description}) => {
     <Card className={cx(cardStyles.root, shadowStyles.root)} style={{backgroundColor: colorPalette[j]}}>
       <CardContent className={cardStyles.content} style={{color: fontColor[j]}}>
         <h2> {title} </h2>
-        <p> {description} </p>
+        {/* <p> {description} </p> */}
       </CardContent>
       <Box px={2} pb={2} mt={-1}>
-        <IconButton>
-          <Share />
-        </IconButton>
-        <IconButton>
-          <FavoriteBorderRounded />
-        </IconButton>
+        <Link href={link} target="_blank" >
+          <IconButton>
+            <Share />
+          </IconButton>
+        </Link>
       </Box>
     </Card>
   );

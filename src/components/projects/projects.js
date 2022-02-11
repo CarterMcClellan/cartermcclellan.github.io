@@ -10,38 +10,9 @@ function Projects() {
         500: 1
       };      
   
-  const cardMock = [
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},
-    {title : 'Project Euler 2', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam'},
-    {title : 'Project Euler 3', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Project Description'},
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 2', description : 'Project Description'},
-    {title : 'Project Euler 3', description : 'Project Description'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},
-    {title : 'Project Euler 2', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam'},
-    {title : 'Project Euler 3', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Project Description'},
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 2', description : 'Project Description'},
-    {title : 'Project Euler 3', description : 'Project Description'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},
-    {title : 'Project Euler 2', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam'},
-    {title : 'Project Euler 3', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Project Description'},
-    {title : 'Project Euler 1', description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'},
-    {title : 'Project Euler 2', description : 'Project Description'},
-    {title : 'Project Euler 3', description : 'Project Description'},
-    {title : 'Project Euler 4', description : 'Project Description'},
-    {title : 'Project Euler 5', description : 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
-  ]
+  // pulled from https://github.com/CarterMcClellan/Machine-Learning-Basics/blob/master/toc.py
+  const cardMock = [{"title": "Loss", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/Loss/Entropy.ipynb"}, {"title": "NA/Matrix Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/NA/Matrix%20Methods/QR%20Decomposition.ipynb"}, {"title": "DL/architecture", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/DL/architecture/MLP.ipynb"}, {"title": "ML/Support Vector Machine (SVM)", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Support%20Vector%20Machine%20(SVM"}, {"title": "ML/Bayesian Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Bayesian%20Methods/Naive%20Bayes.ipynb"}, {"title": "ML/Decision Trees", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Decision%20Trees/Decision%20Trees%20-%20Overview.ipynb"}, {"title": "ML/Logistic Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Logistic%20Regression/Logistic%20Regression%20-%20Overview.ipynb"}, {"title": "ML/Linear Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Linear%20Regression/Linear%20Regression%20-%20Overview.ipynb"}]
+
   return (
     <Masonry
         breakpointCols={breakpointColumnsObj}
@@ -49,7 +20,7 @@ function Projects() {
         columnClassName="my-masonry-grid_column"
       >
         {cardMock.map(item => {
-          return <CardDemo title={item.title} description={item.description}/>
+          return <CardDemo title={item.title} link={item.link}/>
         })}
         
       </Masonry>
