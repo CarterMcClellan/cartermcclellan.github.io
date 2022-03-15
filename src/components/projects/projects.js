@@ -11,7 +11,14 @@ function Projects() {
       };      
   
   // pulled from https://github.com/CarterMcClellan/Machine-Learning-Basics/blob/master/toc.py
-  const cardMock = [{"title": "Loss", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/Loss/Entropy.ipynb"}, {"title": "NA/Matrix Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/NA/Matrix%20Methods/QR%20Decomposition.ipynb"}, {"title": "DL/architecture", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/DL/architecture/MLP.ipynb"}, {"title": "ML/Support Vector Machine (SVM)", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Support%20Vector%20Machine%20(SVM"}, {"title": "ML/Bayesian Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Bayesian%20Methods/Naive%20Bayes.ipynb"}, {"title": "ML/Decision Trees", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Decision%20Trees/Decision%20Trees%20-%20Overview.ipynb"}, {"title": "ML/Logistic Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Logistic%20Regression/Logistic%20Regression%20-%20Overview.ipynb"}, {"title": "ML/Linear Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Linear%20Regression/Linear%20Regression%20-%20Overview.ipynb"}]
+  const cardMock = [{"title": "Loss", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/Loss/Entropy.ipynb"}, 
+                    {"title": "NA/Matrix Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/NA/Matrix%20Methods/QR%20Decomposition.ipynb"}, 
+                    {"title": "DL/architecture", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/DL/architecture/MLP.ipynb"}, 
+                    // {"title": "ML/Support Vector Machine (SVM)", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Support%20Vector%20Machine%20(SVM"}, 
+                    {"title": "ML/Bayesian Methods", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Bayesian%20Methods/Naive%20Bayes.ipynb"}, 
+                    {"title": "ML/Decision Trees", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Decision%20Trees/Decision%20Trees%20-%20Overview.ipynb"},
+                    {"title": "ML/Logistic Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Logistic%20Regression/Logistic%20Regression%20-%20Overview.ipynb"},
+                    {"title": "ML/Linear Regression", "link": "https://nbviewer.org/github/CarterMcClellan/Machine-Learning-Basics/blob/master/ML/Linear%20Regression/Linear%20Regression%20-%20Overview.ipynb"}]
 
   return (
     <Masonry

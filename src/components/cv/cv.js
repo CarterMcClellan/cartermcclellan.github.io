@@ -25,7 +25,7 @@ function CV() {
               ran in a heterogenous Hadoop Cluster, utilizing both GPU and CPU nodes simultaneously.
           </li>
         </ol>
-        Technologies: GoLang, C++, Spark
+        Technologies: Hadoop, Spark, Airflow
       </div>
       <br></br>
 
@@ -51,7 +51,7 @@ function CV() {
           <li> Researched Graph Neural Networks and applied them over TikTok and Instagram to predict customers, cluster influencers, and rank influencers.
           </li>
         </ol>
-        Technologies: Python, PyTorch, PySpark, Docker, AWS
+        Technologies: AWS Glue, PySpark
       </div>
       <br></br>
 
@@ -63,13 +63,13 @@ function CV() {
       </div>
       <br></br>
       <div className="experience"> 
-        Prior to Finesse I worked as a "quant" or <b>Multi Asset and Alternatives Intern</b>  as Janus Henderson Investors, inder the direction of Nobel Prize
+        Prior to Finesse I worked as a "quant" or <b>Multi Asset and Alternatives Intern</b> at Janus Henderson Investors, under the direction of Nobel Prize
         Winning economist Myron Scholes. Over my 2 months I
         <ol>
           <li>Authored performance visualization module to test Portfolio Optimizer and improve algorithm visibility to the clients.</li>
           <li>Part of the Portfolio Rebalance Team, responsible for adjusting multi-billion-dollar portfolio holdings according to Quantitative Models.</li>
         </ol>
-        Technologies: Python, Pandas, Numpy
+        Technologies: Pandas, Numpy
       </div>
       <br></br>
 
@@ -82,11 +82,10 @@ function CV() {
       <div className="experience"> 
         In the summer of 2018, I worked as a <b> Software Engeering Intern </b> at PRGX Labs.
         <ol>
-          <li>Introduced a series of Map Reduce jobs in Python as part of a high-performance data ingestion pipeline.</li>
-          <li>Co-authored module to bridge data from database to Web Application in parallel speeding up existing code by 1800%.</li>
-          <li>Developed scalable Web Application to preview datasets with up to 2,000,000,000 rows.</li>
+          <li>Introduced a series of PySpark as part of a high-performance data ingestion pipeline.</li>
+          <li>Developed scalable Web Application to preview datasets.</li>
         </ol>
-        Technologies: Python, PySpark, Javascript
+        Technologies: PySpark
       </div>
       <br></br>
 
@@ -97,13 +96,13 @@ function CV() {
       </div>
       <br></br>
       <div className="experience"> 
-        In the summer of 2018, I worked as a <b> Software Engeering Intern </b> at Min.io.
+        In the summer of 2017, I worked as a <b> Software Engeering Intern </b> at Min.io.
         <ol>
           <li>Proposed and developed a unix-like find command for the MinIO client</li>
           <li>Collaborated with team of interns to improve code coverage by 5%</li>
           <li>Developed several Min.io sample REST applications</li>
         </ol>
-        Technologies: Go, Docker
+        Technologies: GoLang, Minio
       </div>
       <br></br>
 
