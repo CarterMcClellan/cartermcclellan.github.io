@@ -15,7 +15,7 @@ function Sidebar(props) {
         <ol>
             <li className="grow"><a href="https://github.com/CarterMcClellan"> <FontAwesomeIcon icon={faGithub} /> Github </a> </li>
             <li className="grow"><a href="https://www.linkedin.com/in/carter-mcclellan/" > <FontAwesomeIcon color="#2867B2" icon={faLinkedin} /> LinkedIn</a></li>
-            <li className="grow"><a href="https://drive.google.com/file/d/1BMPluC33sNDlplZpxYHZe4h5mwp9lB8Q/view?usp=sharing" > <FontAwesomeIcon icon={faFileAlt} /> Resume</a></li>
+            <li className="grow"><a href="https://drive.google.com/file/d/1oiJhWeZODqYQJ-g2f5mQMmJwuyB1rHCq/view?usp=sharing" > <FontAwesomeIcon icon={faFileAlt} /> Resume</a></li>
         </ol>
     </div>
     
