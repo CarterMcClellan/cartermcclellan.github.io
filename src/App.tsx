@@ -127,23 +127,29 @@ const App = () => (
     </header>
 
     <section className="profile" aria-label="About Carter McClellan">
-      <p>
-        I’m a <strong>Member of Technical Staff at OpenAI</strong>, where I work on
-        applied evaluations for coding agents and real-world developer workflows.
-      </p>
-      <p>
-        Previously, I co-founded{" "}
-        <a
-          href="https://www.ycombinator.com/companies/supercontrast"
-          target="_blank"
-          rel="noreferrer"
-        >
-          supercontrast
-        </a>
-        , a Y Combinator Fall ’24 company building an AI copilot for creating and
-        refining high-quality designs and visual assets. We wanted to make ambitious
-        creative work faster and more accessible.
-      </p>
+      <div className="profile-copy">
+        <p>I’m a Member of Technical Staff at OpenAI.</p>
+        <p>
+          Previously, I co-founded{" "}
+          <a
+            href="https://www.ycombinator.com/companies/supercontrast"
+            target="_blank"
+            rel="noreferrer"
+          >
+            supercontrast
+          </a>
+          , a Y Combinator Fall ’24 company building an AI copilot for creating and
+          refining high-quality designs and visual assets. We wanted to make ambitious
+          creative work faster and more accessible.
+        </p>
+      </div>
+      <img
+        className="headshot"
+        src="/headshot.png"
+        alt="Carter McClellan"
+        width="800"
+        height="800"
+      />
     </section>
 
     <section className="projects" id="projects" aria-labelledby="projects-title">

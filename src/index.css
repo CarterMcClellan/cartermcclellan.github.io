@@ -101,17 +101,29 @@ a:focus-visible {
 }
 
 .profile {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 9.5rem;
+  gap: 1.4rem;
+  align-items: start;
   margin-bottom: 2rem;
   font-size: 1.14rem;
   line-height: 1.5;
 }
 
-.profile p {
+.profile-copy p {
   margin: 0 0 0.72rem;
 }
 
-.profile p:last-child {
+.profile-copy p:last-child {
   margin-bottom: 0;
+}
+
+.headshot {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 2px;
 }
 
 .section-header {
@@ -269,6 +281,8 @@ footer {
   }
 
   .profile {
+    grid-template-columns: minmax(0, 1fr) 7.25rem;
+    gap: 1rem;
     margin-bottom: 1.55rem;
     font-size: 1.08rem;
   }
@@ -291,6 +305,11 @@ footer {
 }
 
 @media (max-width: 430px) {
+  .profile {
+    grid-template-columns: minmax(0, 1fr) 5.75rem;
+    gap: 0.8rem;
+  }
+
   .section-header {
     align-items: flex-end;
   }
