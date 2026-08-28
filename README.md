@@ -1,22 +1,18 @@
-## Run Development Server
-```
-yarn start
+# cartermcclellan.github.io
+
+Personal site for Carter McClellan, built with React, TypeScript, and Vite.
+
+## Local development
+
+```sh
+npm install
+npm run dev
 ```
 
-## Update GH-Pages
-```
-yarn deploy
+## Production build
+
+```sh
+npm run build
 ```
 
-## Install
-Install latest nvm from [here](https://github.com/nvm-sh/nvm)
-
-Use node 12.18.3
-```
-nvm use 12.18.3
-```
-
-Install yarn
-```
-npm install --global yarn
-```
+The site is published at [cartermcclellan.github.io](https://cartermcclellan.github.io/).
