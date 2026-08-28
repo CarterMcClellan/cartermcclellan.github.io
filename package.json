@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "tsc -b --pretty false",
-    "deploy": "npm run build && gh-pages -d dist -t true",
+    "deploy": "npm run build && gh-pages -d dist --dotfiles",
     "preview": "vite preview"
   },
   "dependencies": {
