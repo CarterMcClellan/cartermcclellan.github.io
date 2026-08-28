@@ -138,9 +138,7 @@ const App = () => (
           >
             supercontrast
           </a>
-          , a Y Combinator Fall ’24 company building an AI copilot for creating and
-          refining high-quality designs and visual assets. We wanted to make ambitious
-          creative work faster and more accessible.
+          , a Y Combinator Fall ’24 company.
         </p>
       </div>
       <img
