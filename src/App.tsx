@@ -109,8 +109,14 @@ const App = () => (
     </a>
 
     <header className="page-header">
+      <img
+        className="headshot"
+        src="/headshot.png"
+        alt="Carter McClellan"
+        width="800"
+        height="800"
+      />
       <h1>Carter McClellan</h1>
-      <p>Member of Technical Staff at OpenAI</p>
       <nav aria-label="Profile links">
         <a href="https://github.com/CarterMcClellan" target="_blank" rel="noreferrer">
           GitHub
@@ -127,27 +133,17 @@ const App = () => (
     </header>
 
     <section className="profile" aria-label="About Carter McClellan">
-      <img
-        className="headshot"
-        src="/headshot.png"
-        alt="Carter McClellan"
-        width="800"
-        height="800"
-      />
-      <div className="profile-copy">
-        <p>I’m a Member of Technical Staff at OpenAI.</p>
-        <p>
-          Previously, I co-founded{" "}
-          <a
-            href="https://www.ycombinator.com/companies/supercontrast"
-            target="_blank"
-            rel="noreferrer"
-          >
-            supercontrast
-          </a>
-          , a Y Combinator Fall ’24 company.
-        </p>
-      </div>
+      <p>
+        I’m a Member of Technical Staff at OpenAI. Previously, I co-founded{" "}
+        <a
+          href="https://www.ycombinator.com/companies/supercontrast"
+          target="_blank"
+          rel="noreferrer"
+        >
+          supercontrast
+        </a>
+        , a Y Combinator Fall ’24 company.
+      </p>
     </section>
 
     <section className="projects" id="projects" aria-labelledby="projects-title">
