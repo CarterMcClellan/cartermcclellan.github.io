@@ -127,6 +127,13 @@ const App = () => (
     </header>
 
     <section className="profile" aria-label="About Carter McClellan">
+      <img
+        className="headshot"
+        src="/headshot.png"
+        alt="Carter McClellan"
+        width="800"
+        height="800"
+      />
       <div className="profile-copy">
         <p>I’m a Member of Technical Staff at OpenAI.</p>
         <p>
@@ -141,13 +148,6 @@ const App = () => (
           , a Y Combinator Fall ’24 company.
         </p>
       </div>
-      <img
-        className="headshot"
-        src="/headshot.png"
-        alt="Carter McClellan"
-        width="800"
-        height="800"
-      />
     </section>
 
     <section className="projects" id="projects" aria-labelledby="projects-title">
